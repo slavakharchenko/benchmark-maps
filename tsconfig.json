@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "*": [ "./*" ],
+            "src/*": ["./src/*"]
+        },
+        "types": ["node", "@wdio/sync", "@wdio/mocha-framework","@types/mapbox-gl"]
+    },
+    "include": ["./*"],
+    "exclude": ["node_modules", "dist"]
+}
