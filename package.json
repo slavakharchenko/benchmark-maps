@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@types/mapbox-gl": "^0.54.1",
     "@types/mocha": "^5.2.7",
-    "mapbox-gl": "^1.2.0"
-  },
-  "devDependencies": {
     "@wdio/cli": "^5.11.11",
-    "@wdio/firefox-profile-service": "^5.11.10",
+    "@wdio/devtools-service": "^5.11.13",
     "@wdio/local-runner": "^5.11.11",
     "@wdio/mocha-framework": "^5.11.0",
     "@wdio/selenium-standalone-service": "^5.11.2",
